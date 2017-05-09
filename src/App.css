@@ -1,0 +1,120 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fc6c43;
+  height: 50px;
+  padding: 5px;
+  color: #fff;
+}
+
+.App-header h1 {
+  margin: 0;
+  height: 0;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-image: url(img/pattern.svg);
+  background-size: cover;
+}
+
+.Search-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Search-form--inline {
+  flex-direction: row;
+}
+
+label {
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .07);
+  color: #555;
+}
+
+.btn-submit {
+  display: block;
+  margin: 10px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 4px;
+  background: #5cb85c;
+  color: #fff;
+  text-align: center;
+}
+
+h2,
+h3 {
+  display: block;
+  margin: 20px auto;
+  color: #fff;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-list li {
+  display: flex;
+}
+
+.weather-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.day-view {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.day-view img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
